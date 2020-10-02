@@ -4,24 +4,24 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     app:view_aspectRatio="1">
-    
-    <ImageView
-        android:id="@+id/item_imageTile"
+
+    <com.asksira.bsimagepicker.widget.RoundImageView
+        android:id="@+id/imageContent"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@android:color/darker_gray"
-        android:scaleType="centerCrop" />
-    
-    <View
-        android:id="@+id/imageTile_selected_darken"
+        android:scaleType="centerCrop"
+        android:src="@android:color/darker_gray" />
+
+    <com.asksira.bsimagepicker.widget.RoundImageView
+        android:id="@+id/viewDarken"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@color/black50" />
-    
-    <ImageView
-        android:id="@+id/imageTile_selected"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:src="@color/black50" />
+
+    <com.asksira.bsimagepicker.widget.RoundImageView
+        android:id="@+id/imageTick"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
         android:layout_centerInParent="true"
         android:src="@drawable/picker_tile_selected" />
 

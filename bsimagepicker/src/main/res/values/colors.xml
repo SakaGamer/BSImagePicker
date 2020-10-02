@@ -2,6 +2,6 @@
 <resources>
     <color name="black50">#80000000</color>
     <color name="primary_text">#212121</color>
-    <color name="multiselect_done">#388e3c</color>
+    <color name="multi_select_done">#388e3c</color>
     <color name="error_text">#b71c1c</color>
 </resources>

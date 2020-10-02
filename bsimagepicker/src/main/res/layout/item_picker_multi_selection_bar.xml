@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/multi_select_bar_bg"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_multi_select_done"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:background="?selectableItemBackground"
+        android:paddingVertical="12dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:text="@string/title_multi_select_done"
+        android:textColor="@color/multi_select_done"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_multi_select_message"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:paddingVertical="12dp"
+        android:paddingStart="16dp"
+        android:textColor="@color/primary_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/tv_multi_select_done"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="You have to select 5 more images" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

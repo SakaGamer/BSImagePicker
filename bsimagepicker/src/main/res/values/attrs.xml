@@ -5,4 +5,8 @@
         <attr name="view_aspectRatio" format="float"/>
     </declare-styleable>
 
+    <declare-styleable name="RoundImageView">
+        <attr name="imageCornerRadius" format="dimension|float" />
+    </declare-styleable>
+
 </resources>

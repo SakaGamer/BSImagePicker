@@ -1,15 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.asksira.bsimagepicker.widget.FitWidthRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:background="@android:color/black"
     app:view_aspectRatio="1">
 
-    <ImageView
+    <com.asksira.bsimagepicker.widget.RoundImageView
+        android:id="@+id/viewDarken"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@color/black50" />
+
+    <com.asksira.bsimagepicker.widget.RoundImageView
         android:layout_width="48dp"
         android:layout_height="48dp"
-        android:src="@drawable/picker_icon_camera"
-        android:layout_centerInParent="true"/>
+        android:layout_centerInParent="true"
+        android:src="@drawable/picker_icon_camera" />
 
 </com.asksira.bsimagepicker.widget.FitWidthRelativeLayout>

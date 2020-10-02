@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/BSImagePicker.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/BSImagePicker.app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bsimagepicker/BSImagePicker.bsimagepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/bsimagepicker/BSImagePicker.bsimagepicker.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Documents.BSImagePicker.iml" filepath="$PROJECT_DIR$/.idea/modules/Documents.BSImagePicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/BSImagePicker.iml" filepath="$PROJECT_DIR$/.idea/modules/BSImagePicker.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/android.BSImagePicker.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/android.BSImagePicker.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/bsimagepicker/com.asksira.android.BSImagePicker.bsimagepicker.iml" filepath="$PROJECT_DIR$/.idea/modules/bsimagepicker/com.asksira.android.BSImagePicker.bsimagepicker.iml" />
     </modules>
   </component>
 </project>
